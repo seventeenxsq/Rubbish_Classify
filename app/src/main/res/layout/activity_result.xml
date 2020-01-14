@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background1"
+    tools:context=".Activity.ResultActivity">
+
+    <ImageView
+        android:id="@+id/iv_zan"
+        android:layout_width="297dp"
+        android:layout_height="205dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/zan" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circlekuang"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:background="@drawable/circlekuang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/circlekuang"
+        android:text="获得称号：  分类小能手"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_drawable1"
+
+        android:text="退  出"
+        android:textSize="17dp" />
+
+
+
+</LinearLayout>

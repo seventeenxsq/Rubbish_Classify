@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DatiGameActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/datibackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/datibackground"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="33dp"
+                android:textColor="#111111"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text=""
+                android:textSize="30dp"
+                android:textColor="#111111"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circlekuang" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/choose1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+               android:layout_marginLeft="70dp"
+                android:textSize="35sp"
+                />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/choose2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="35sp"
+                />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/choose3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="35sp"
+                />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/choose4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/xiayiti"
+                android:layout_width="99dp"
+                android:layout_height="68dp"
+                android:background="@mipmap/jiantou1"
+                android:layout_marginTop="100dp"
+                android:text="下 一 题"
+                android:textSize="16dp"
+                android:layout_marginLeft="250dp"/>
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

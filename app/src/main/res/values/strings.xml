@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">快到桶里来</string>
+    <string name="applyURL">http://api.tianapi.com/txapi/lajifenlei/?</string>
+    <string name="AppKey">key=b6dfe03714edcfbb04e9228299d57216</string>
+    <string name="a">a</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shangchuanbtn">识别错误？！点我更正</string>
+    <string name="welcome">见“圾”行事</string>
+
+</resources>

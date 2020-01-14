@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_blue"
+                android:layout_width="87dp"
+                android:layout_height="84dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/round_blue" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/iv_green"
+                android:layout_width="56dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/round_green" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_brown"
+                android:layout_width="84dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_brown" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="316dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:background="@drawable/searchbox_ovel"
+                android:hint="请输入垃圾名称" />
+
+            <EditText
+                android:id="@+id/ed_info"
+                android:layout_width="230dp"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="70dp"
+                android:hint="请输入垃圾名称"/>
+
+            <Button
+                android:id="@+id/btn_takephoto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/searchicon" />
+
+
+        </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_CategoryPicture"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:visibility="visible"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+
+              />
+
+
+            <ScrollView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    android:textSize="20dp" />
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_front"
+                android:layout_width="148dp"
+                android:layout_height="333dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="120dp"
+                android:src="@mipmap/tubiao" />
+
+            <ImageView
+                android:id="@+id/iv_biaoyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biaoyu"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

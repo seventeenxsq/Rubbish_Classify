@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/greenround"
+                    android:layout_width="177dp"
+                    android:layout_height="207dp"
+                    android:background="@drawable/banyuan_green" />
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp"
+                    android:text="@string/welcome"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="180dp">
+
+
+            <ImageView
+                android:id="@+id/brownround"
+                android:layout_width="63dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/round_brown" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp">
+
+
+            <ImageView
+                android:id="@+id/redround"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/round_red" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp">
+
+                <ImageView
+                    android:id="@+id/blueround"
+                    android:layout_width="92dp"
+                    android:layout_height="92dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/round_blue" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@mipmap/weizhiicon" />
+
+                <TextView
+                    android:id="@+id/tv_city"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="53dp"
+                    android:text="上海"
+                    android:textSize="18dp"
+                    android:focusable="true" />
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_takephoto"
+                android:layout_width="206dp"
+                android:layout_height="206dp"
+                android:background="@drawable/button_circle" />
+
+            <ImageView
+                android:id="@+id/iv_xiangji"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="45dp"
+                android:background="@mipmap/takephotoicon" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="拍照识别"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/p1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/p2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="160dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/p3" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="155dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/p4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="点 击 查 看 详 细 类 别 信 息"
+        android:textColor="#E918FD1A"/>
+
+</LinearLayout>
